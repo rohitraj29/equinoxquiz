@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application-client version="5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application-client_5.xsd">
+  <display-name>QuizEngineApp</display-name>
+  
+  <ejb-ref>
+    <ejb-ref-name>CreateUserBean</ejb-ref-name>
+    <ejb-ref-type>Session</ejb-ref-type>
+    <remote>com.equinox.ejb.session.CreateUserRemote</remote>
+  </ejb-ref>
+  <ejb-ref>
+    <ejb-ref-name>TestFacade</ejb-ref-name>
+    <ejb-ref-type>Session</ejb-ref-type>
+    <remote>com.equinox.ejb.session.TestFacadeRemote</remote>
+  </ejb-ref>
+  <ejb-ref>
+    <ejb-ref-name>QuestionEntryBean</ejb-ref-name>
+    <ejb-ref-type>Session</ejb-ref-type>
+    <remote>com.equinox.ejb.session.QuestionEntryRemote</remote>
+  </ejb-ref>
+  <ejb-ref>
+    <ejb-ref-name>HitEntryBean</ejb-ref-name>
+    <ejb-ref-type>Session</ejb-ref-type>
+    <remote>com.equinox.ejb.session.HitEntryRemote</remote>
+  </ejb-ref>
+  <ejb-ref>
+    <ejb-ref-name>TestEntryBean</ejb-ref-name>
+    <ejb-ref-type>Session</ejb-ref-type>
+    <remote>com.equinox.ejb.session.TestEntryRemote</remote>
+  </ejb-ref>
+  <ejb-ref>
+    <ejb-ref-name>ResultBeanBean</ejb-ref-name>
+    <ejb-ref-type>Session</ejb-ref-type>
+    <remote>com.equinox.ejb.session.ResultBeanRemote</remote>
+  </ejb-ref>
+  <ejb-ref>
+    <ejb-ref-name>FinalResultBean</ejb-ref-name>
+    <ejb-ref-type>Session</ejb-ref-type>
+    <remote>com.equinox.ejb.session.FinalResultRemote</remote>
+  </ejb-ref>
+  
+</application-client>
