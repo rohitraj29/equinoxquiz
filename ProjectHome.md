@@ -1,0 +1,3 @@
+This Quiz Engine is developed keeping in mind the efficiency and scalability of the Java platform , it is an enterprise Application which can be used by any Organization for the purpose of evaluation of their Associates .
+
+This was developed during an initiative to automate the Mock Test conducted in our college SRMSCET, Bareilly for enabling the students to tackle the company papers and interviews Efficeiently
